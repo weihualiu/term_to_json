@@ -3,7 +3,7 @@
 %%%     文件名称：term_to_json.erl
 %%%     内容摘要：基本函数库
 %%%     当前版本：1.0.0
-%%%     作者：liu.weihua@rytong.com
+%%%     作者 lwhjava@vip.qq.com
 %%%     创建日期：10/30/2015
 %%%
 %%%     修改记录1：
