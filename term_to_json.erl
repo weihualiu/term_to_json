@@ -1,6 +1,6 @@
 %%%-------------------------------------------------------------------
 %%% @doc
-%%%     文件名称：common_utils.erl
+%%%     文件名称：term_to_json.erl
 %%%     内容摘要：基本函数库
 %%%     当前版本：1.0.0
 %%%     作者：liu.weihua@rytong.com
@@ -12,7 +12,7 @@
 %%% @end
 %%%-------------------------------------------------------------------
 
--module(common_utils).
+-module(term_to_json).
 
 -export([term_to_json/1, now_milliseconds/0, get_value/3]).
 
