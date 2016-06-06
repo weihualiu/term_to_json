@@ -83,6 +83,8 @@ term_to_json_key(Key,Value) when erlang:is_integer(Key) ->
 term_to_json_key(Key,Value) ->
 	"\"" ++ Key ++ "\":" ++ term_to_json_sub_1(Value).
 
+term_to_json_convert(listobj) ->
+	listobj;
 term_to_json_convert(L) when erlang:is_atom(L) ->
 	term_to_json_convert(atom_to_list(L));
 term_to_json_convert(L) when erlang:is_integer(L) ->
